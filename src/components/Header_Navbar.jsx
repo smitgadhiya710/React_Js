@@ -5,16 +5,16 @@ import { MdMenu } from "react-icons/md";
 import { IoCloseSharp, IoHandLeft } from "react-icons/io5";
 import Array from "./Array";
 import { enableBodyScroll, disableBodyScroll } from "body-scroll-lock";
-
+// pushing
 function Header_Navbar() {
   const [toggle, settoggle] = useState();
 
   return (
     <>
-      <div className=" bg-lightpista lg:py-px size-full ">
-        <nav className="max-w-[1240] flex bg-white  lg:mt-7 lg:ml-8 lg:mr-8 lg:mb-7 lg:pb-4 lg:pt-4  rounded-3xl  justify-end">
+      <div className=" bg-lightpista py-px size-full ">
+        <nav className="max-w-[1240] flex bg-white  mt-7 ml-8 mr-8 mb-7 pb-4 pt-4  rounded-3xl  justify-end">
           <div className="width=20px mr-auto lg:mt-1">
-            <BiLogoAmazon size={"40px"} className="content-start lg:ml-7" />
+            <BiLogoAmazon size={"40px"} className="content-start ml-5" />
           </div>
           {toggle ? (
             <></>
@@ -26,7 +26,7 @@ function Header_Navbar() {
                 console.log("check");
               }}
               size={"25px"}
-              className="sm:hidden block sm:mt-2 sm:mr-2"
+              className="sm:hidden block mt-2 mr-2"
             />
           )}
 
@@ -44,10 +44,10 @@ function Header_Navbar() {
           </div>
         </nav>
 
-        {/* -------------------------------------Mobile Navbar-------------------------------------------------------------------------------------- */}
+         {/* -------------------------------------------------------------Mobile Navbar-------------------------------------------------------------- */}
 
         <div
-          className={`"md:hidden  z-50  gap-3 pl-5 text-left w-screen h-screen text-black bg-darkblue fixed right-0 top-0 bottom-0 flex flex-col  ${
+          className={`"sm:hidden  z-50  gap-3 pl-5 text-left w-screen h-screen text-black bg-darkblue fixed right-0 top-0 bottom-0 flex flex-col  ${
             toggle ? "left-[0%]" : "left-[-100%]"
           }`}
         >
@@ -70,40 +70,40 @@ function Header_Navbar() {
             Login
           </button>
         </div>
-        {/* -------------------------------------Mobile Navbar-------------------------------------------------------------------------------------- */}
+        {/* -------------------------------------------------------------Mobile Navbar-------------------------------------------------------------- */}
 
         <div className="w-full flex flex-col lg:flex-row justify-center items-left">
-          <div className="w-[50%] lg:mb-56 ">
+          <div className="lg:w-[50%] lg:mb-56 ">
             <div className="text-left inline-grid w-3/5  ">
-              <h1 className="text-darkpista font-mono text-2xl lg:mt-36">
+              <h1 className="text-darkpista font-mono text-2xl mt-6 lg:mt-36">
                 WE PROVIDE
               </h1>
               <h1 className="text-neutral-950 font-serif text-xl font-semibold">
                 ACTION-PROVOKING
               </h1>
-              <h3 className="font-medium lg:mb-8">TO HELP YOU GROW AUDIENCE</h3>
+              <h3 className="font-medium mb-6 lg:mb-8">TO HELP YOU GROW AUDIENCE</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
                 officia error, molestias recusandae blanditiis similique eveniet
                 vitae facilis libero fugiat.
               </p>
 
-              <div className="text-left">
-                <button className="bg-black  text-white font-semibold lg:py-2 lg:px-4 border border-black  rounded lg:mr-6 lg:mt-28">
+              <div className="text-left flex-row ">
+                <button className="bg-black  text-white font-semibold py-1 px-2 mt-11 lg:py-2 lg:px-4 border border-black  rounded lg:mr-6 lg:mt-28">
                   Free Proposal
                 </button>
-                <button className="bg-transparent  text-black font-semibold lg:py-2 lg:px-8 border border-black rounded">
+                <button className="bg-transparent  text-black font-semibold py-1 px-5 ml-4 mt-5 lg:py-2 lg:px-8 border border-black rounded">
                   Chat Now
                 </button>
               </div>
             </div>
           </div>
-          <div className="w-[50%]  ">
+          <div className="lg:w-[50%]  ">
             <div className="justify-end overflow-hidden lg:ml-32">
               <img src="Saly-1.png"></img>
             </div>
             <div className="w-fit flex justify-right  bg-white rounded-lg lg:mb-56">
-              <div className=" w-fit lg:grid grid-cols-2 lg:ml-4 lg:mr-4 gap-1 lg:mt-3  lg:mb-3">
+              <div className=" w-fit m lg:grid grid-cols-2 lg:ml-4 lg:mr-4 gap-1 lg:mt-3  lg:mb-3">
                 <Array
                   arr={[
                     {
