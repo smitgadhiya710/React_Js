@@ -5,7 +5,7 @@ import { MdMenu } from "react-icons/md";
 import { IoCloseSharp, IoHandLeft } from "react-icons/io5";
 import Array from "./Array";
 import { enableBodyScroll, disableBodyScroll } from "body-scroll-lock";
-// pushing
+
 function Header_Navbar() {
   const [toggle, settoggle] = useState();
 
