@@ -91,10 +91,10 @@ function Header_Navbar() {
               </p>
 
               <div className="text-left flex-row ">
-                <button className="bg-black  text-white font-semibold py-1 px-2 mt-11 lg:py-2 lg:px-4 border border-black  rounded lg:mr-6 lg:mt-28">
+                <button className="bg-black  text-white font-semibold py-1 px-2 mt-11 lg:py-2 lg:px-3 border border-black  rounded lg:mr-6 lg:mt-28">
                   Free Proposal
                 </button>
-                <button className="bg-transparent  text-black font-semibold py-1 px-5 ml-4 mt-5  lg:ml-4 sm:ml-11 lg:py-2 lg:px-8 border border-black rounded">
+                <button className="bg-transparent  text-black font-semibold py-1 px-5 ml-4 mt-5  lg:ml-4 sm:ml-11 lg:py-2 lg:px-6 border border-black rounded">
                   Chat Now
                 </button>
               </div>

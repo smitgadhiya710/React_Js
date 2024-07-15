@@ -3,9 +3,9 @@ import Group41 from "./Group41.png";
 
 function Process() {
   return (
-    <div className="bg-white2 relative ">
+    <div className="bg-white2 relative  lg:-mt-28 ">
       <div className="relative flex top-16 -mt-11 lg:-top-24 ">
-        <div className="lg:w-[40%] text-left lg:mb-11 lg:mt-16 lg:pt-20 lg:pl-10 lg:gap-11">
+        <div className="lg:w-[40%] text-left lg:mb-11 lg:mt-16 lg:pt-20 lg:pl-20 lg:gap-11">
           <h1 className="pl-6 text-neutral-950 font-serif text-xl font-semibold lg:mb-11 lg:pt-11 lg:ml-8 lg:mr-16">
             Our Simple Process To Order
           </h1>
@@ -28,10 +28,10 @@ function Process() {
             consectetur adipisicing elit. Velit officia error, molestias
             recusandae blanditiis.
           </p>
-          <button className="bg-black  ml-6 text-white font-semibold py-1 px-2 mt-11 lg:py-2 lg:px-4 border border-black  rounded lg:mr-6 lg:mt-28">
+          <button className="bg-black  ml-6 text-white font-semibold py-1 px-2 mt-11 lg:py-2 lg:px-3 border border-black  rounded lg:mr-1 lg:mt-28">
             Free Proposal
           </button>
-          <button className="bg-transparent ml-6  text-black font-semibold py-1 px-5 sm:ml-11 lg:py-2 lg:px-8 border border-black rounded">
+          <button className="bg-transparent ml-6  text-black font-semibold py-1 px-5 sm:ml-11 lg:py-2 lg:px-6 border border-black rounded">
             Chat Now
           </button>
         </div>

@@ -43,7 +43,7 @@ function Footer() {
           </div>
 
           <div className="lg:gap-8 lg:w-[33%] justify-start items-left pl-6 pr-2 pt-16 pb-1 lg:pl-5 lg:pr-5 lg:mr-5 lg:mt-8">
-            <p className="mb-6 text-left ml-1 lg:mb-7  lg:-ml-48">
+            <p className="mb-6 text-left ml-1 lg:mb-8  ">
               USEFUL LINKS
             </p>
             <div className="gap-1 grid grid-cols-2 lg:gap-5">
@@ -96,7 +96,7 @@ function Footer() {
             </div>
           </div>
 
-          <div className="flex justify-center text-center ml-6 mt-16 gap-2 lg:gap-5 lg:w-[33%] lg:mt-2 lg:pt-16 lg:pr-5 lg:ml-5 lg:r-5 lg:mb-24  lg:justify-start items-start  flex-col">
+          <div className="flex justify-center text-center ml-6 mt-16 gap-2 lg:gap-5 lg:w-[33%] lg:pt-16 lg:pr-5 lg:ml-5 lg:r-5 lg:mb-20  lg:justify-start items-start  flex-col">
             <h4 className="mb-4">SUBSCRIBE US</h4>
             <p className="text-left">
               Sign-up for our mailing list to get latest updates and offers.{" "}
@@ -130,8 +130,8 @@ function Footer() {
             </div>
           </div>
         </div>
-        <footer className="bg-black text-xs text-center pt-3 pb-3  flex flex-row lg:flex-col  text-white3 relative lg:-top-28">
-          <div className="flex w-full flex-col gap-1 text-center">
+        <footer className="bg-black text-xs text-center pt-3 pb-3 flex flex-row lg:flex-col  text-white3 relative ">
+          <div className="flex w-full lg:flex-row  flex-col gap-1 lg:gap-60 text-center">
             <div>
               <p className=" lg:justify-left lg:ml-16 lg:pt-5 lg:pb-5 ">
                 Copyrights &copy;2020 All Rights are Reserved By &nbsp;
