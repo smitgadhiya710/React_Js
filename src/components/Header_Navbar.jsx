@@ -12,7 +12,7 @@ function Header_Navbar() {
   return (
     <>
       <div className=" bg-lightpista py-px size-full  ">
-        <nav className="max-w-[1240] flex bg-white  mt-7 ml-8 mr-8 mb-7 pb-4 pt-4  rounded-3xl  justify-end">
+        <nav className="max-w-[1250] flex bg-white  mt-7 ml-8 mr-8 mb-7 pb-4 pt-4  rounded-3xl  justify-end">
           <div className="width=20px mr-auto lg:mt-1">
             <BiLogoAmazon size={"40px"} className="content-start ml-5" />
           </div>
@@ -47,8 +47,8 @@ function Header_Navbar() {
         {/* -------------------------------------------------------------Mobile Navbar-------------------------------------------------------------- */}
 
         <div
-          className={`"sm:hidden  z-50  gap-3 pl-5 text-left w-screen h-screen text-black bg-darkblue fixed right-0 top-0 bottom-0 flex flex-col  ${
-            toggle ? "left-[0%]" : "left-[-100%]"
+          className={`"sm:hidden z-50  gap-3 pl-5 text-left w-screen h-screen text-white  bg-darkblue fixed right-0 top-0 bottom-0 flex flex-col  ${
+            toggle ? "left-[0%]" : "left-[-110%]"
           }`}
         >
           <IoCloseSharp
@@ -63,11 +63,11 @@ function Header_Navbar() {
           <span className="pt-3"> Our Services </span>
           <span className="pt-3"> Our process </span>
           <span className="pt-3"> Why Choose Us </span>
-          <button className="bg-darkpista text-white  font-semibold py-2 px-4 w-fit border rounded-lg mr-4 ">
+          <button className="bg-darkpista text-white  font-semibold px-4 py-1 mt-4  w-fit border rounded-lg mr-4 ">
             Order Now
           </button>
-          <button className="bg-transparent  text-darkpista font-semibold py-2 px-9 mr-5 w-fit border border-darkpista rounded-lg ">
-            lg: Login
+          <button className="bg-transparent  text-darkpista font-semibold py-1 px-9 mr-5 mt-4 w-fit border border-darkpista rounded-lg ">
+           Login
           </button>
         </div>
         {/* -------------------------------------------------------------Mobile Navbar-------------------------------------------------------------- */}
